@@ -2912,12 +2912,12 @@
 										"$ref": "AAAAAAGAPWHy3ynZA9Y="
 									},
 									"font": "Arial;13;0",
-									"left": 648,
-									"top": 496,
+									"left": 527,
+									"top": 528,
 									"width": 17.7099609375,
 									"height": 13,
-									"alpha": -5.764038896229785,
-									"distance": 48.373546489791295,
+									"alpha": -4.7812450577527965,
+									"distance": 145.34441853748632,
 									"hostEdge": {
 										"$ref": "AAAAAAGAPWHy4CncGvI="
 									},
@@ -2934,17 +2934,17 @@
 										"$ref": "AAAAAAGAPWHy3ynZA9Y="
 									},
 									"font": "Arial;13;0",
-									"left": 629,
-									"top": 509,
-									"width": 47.861328125,
+									"left": 620,
+									"top": 528,
+									"width": 53.49169921875,
 									"height": 13,
-									"alpha": 0.7853981633974483,
-									"distance": 40,
+									"alpha": -4.998440085053197,
+									"distance": 35.4400902933387,
 									"hostEdge": {
 										"$ref": "AAAAAAGAPWHy4CncGvI="
 									},
 									"edgePosition": 2,
-									"text": "{unique}"
+									"text": "{ordered}"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -3832,18 +3832,18 @@
 												"$ref": "AAAAAAGAqPGPeAlY2L0="
 											},
 											"font": "Arial;13;0",
-											"left": 127.76645326967594,
+											"left": 127.40146303530094,
 											"top": 230,
-											"width": 97.9189453125,
+											"width": 98.64892578125,
 											"height": 13,
-											"text": "+payye: String[1]",
+											"text": "+payee: String[1]",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 122.76645326967594,
+									"left": 122.40146303530094,
 									"top": 225,
-									"width": 107.9189453125,
+									"width": 108.64892578125,
 									"height": 23
 								},
 								{
@@ -5053,7 +5053,7 @@
 										"_parent": {
 											"$ref": "AAAAAAGAZTFPgzs/B/o="
 										},
-										"name": "payye",
+										"name": "payee",
 										"type": "String",
 										"multiplicity": "1"
 									}
@@ -5160,7 +5160,7 @@
 									"$ref": "AAAAAAGAPWAzGymK/lo="
 								},
 								"multiplicity": "1..*",
-								"isUnique": true
+								"isOrdered": true
 							},
 							"end2": {
 								"_type": "UMLAssociationEnd",
@@ -5171,7 +5171,7 @@
 								"reference": {
 									"$ref": "AAAAAAGAPUxycyVqzNY="
 								},
-								"aggregation": "shared",
+								"aggregation": "composite",
 								"multiplicity": "1"
 							}
 						}

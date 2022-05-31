@@ -28,7 +28,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "StateMachine1",
+			"name": "Fees Payment",
 			"ownedElements": [
 				{
 					"_type": "UMLStatechartDiagram",
@@ -984,6 +984,7 @@
 									"model": {
 										"$ref": "AAAAAAGA5s96Igrbxhc="
 									},
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 60,
 									"top": 171,
@@ -994,8 +995,7 @@
 									"hostEdge": {
 										"$ref": "AAAAAAGA5s96Iwrct9s="
 									},
-									"edgePosition": 1,
-									"text": "login"
+									"edgePosition": 1
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -1270,12 +1270,12 @@
 										"$ref": "AAAAAAGA5vqUeAsj53o="
 									},
 									"font": "Arial;13;0",
-									"left": 727,
-									"top": 268,
+									"left": 774,
+									"top": 264,
 									"width": 158.25341796875,
 									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
+									"alpha": 2.33478023983562,
+									"distance": 57.42821606144492,
 									"hostEdge": {
 										"$ref": "AAAAAAGA5vqUeAskeac="
 									},
@@ -1645,6 +1645,55 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAGA5vyaBAt5r8k="
 							}
+						},
+						{
+							"_type": "UMLFrameView",
+							"_id": "AAAAAAGBGW9uRaLJ44Q=",
+							"_parent": {
+								"$ref": "AAAAAAGA5sH0NQnspiQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGA5sH0NAnqVKg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGBGW9uRaLKRF4=",
+									"_parent": {
+										"$ref": "AAAAAAGBGW9uRaLJ44Q="
+									},
+									"font": "Arial;13;0",
+									"left": 39.94091796875,
+									"top": 69,
+									"width": 84.814453125,
+									"height": 13,
+									"text": "Fees Payment"
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGBGW9uRqLLdMA=",
+									"_parent": {
+										"$ref": "AAAAAAGBGW9uRaLJ44Q="
+									},
+									"font": "Arial;13;1",
+									"left": 13,
+									"top": 69,
+									"width": 21.94091796875,
+									"height": 13,
+									"text": "stm"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 8,
+							"top": 64,
+							"width": 952,
+							"height": 328,
+							"nameLabel": {
+								"$ref": "AAAAAAGBGW9uRaLKRF4="
+							},
+							"frameTypeLabel": {
+								"$ref": "AAAAAAGBGW9uRqLLdMA="
+							}
 						}
 					]
 				}
@@ -1765,17 +1814,7 @@
 							},
 							"target": {
 								"$ref": "AAAAAAGA5sN1YAoCsuY="
-							},
-							"triggers": [
-								{
-									"_type": "UMLEvent",
-									"_id": "AAAAAAGA5vzOEguKepI=",
-									"_parent": {
-										"$ref": "AAAAAAGA5s96Igrbxhc="
-									},
-									"name": "login"
-								}
-							]
+							}
 						},
 						{
 							"_type": "UMLTransition",
