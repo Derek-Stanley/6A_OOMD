@@ -163,7 +163,7 @@
 											"top": 92,
 											"width": 118.8408203125,
 											"height": 13,
-											"text": "+assets: Asset[0..*]",
+											"text": "+assets[0..*]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1159,7 +1159,7 @@
 											"top": 708,
 											"width": 151.38525390625,
 											"height": 13,
-											"text": "+dimensionsint[2]",
+											"text": "+dimensions: int[2]",
 											"horizontalAlignment": 0
 										}
 									],
@@ -5304,9 +5304,6 @@
 								"$ref": "AAAAAAGAYMXigMNcL/Y="
 							},
 							"name": "assets",
-							"type": {
-								"$ref": "AAAAAAGAZUvPR9hrqeo="
-							},
 							"multiplicity": "0..*"
 						}
 					],
@@ -5892,7 +5889,9 @@
 							"_parent": {
 								"$ref": "AAAAAAGAYNFPFMSW3H0="
 							},
-							"name": "dimensionsint[2]"
+							"name": "dimensions",
+							"type": "int",
+							"multiplicity": "2"
 						}
 					],
 					"operations": [
