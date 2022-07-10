@@ -44,7 +44,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGBqZr/ASCZhjc="
 							},
-							"name": "SequenceDiagram1",
+							"name": "View Circular",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -65,9 +65,9 @@
 											"font": "Arial;13;0",
 											"left": 104.72998046875,
 											"top": 13,
-											"width": 115.9052734375,
+											"width": 77.3369140625,
 											"height": 13,
-											"text": "SequenceDiagram1"
+											"text": "View Circular"
 										},
 										{
 											"_type": "LabelView",
@@ -2013,7 +2013,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGBqZr/ASCYac0="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -2021,7 +2022,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGBqZr/ASCYac0="
 					},
-					"name": "Role3"
+					"name": "Role3",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -2029,7 +2031,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGBqZr/ASCYac0="
 					},
-					"name": "Role4"
+					"name": "Role4",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",

@@ -44,7 +44,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGBvyC+UEEXX4o="
 							},
-							"name": "SequenceDiagram1",
+							"name": "Paying Fees",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -65,9 +65,9 @@
 											"font": "Arial;13;0",
 											"left": 32.72998046875,
 											"top": 13,
-											"width": 115.9052734375,
+											"width": 73.26171875,
 											"height": 13,
-											"text": "SequenceDiagram1"
+											"text": "Paying Fees"
 										},
 										{
 											"_type": "LabelView",
@@ -1150,7 +1150,7 @@
 													"top": 47,
 													"width": 104.6435546875,
 													"height": 13,
-													"text": "Payment Portal"
+													"text": "Bank"
 												},
 												{
 													"_type": "LabelView",
@@ -1474,7 +1474,7 @@
 												"$ref": "AAAAAAGBvzJaj0LJtkU="
 											},
 											"edgePosition": 1,
-											"text": "9 : Message1"
+											"text": "9 : Response"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2128,7 +2128,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGBvyC+UEEXX4o="
 							},
-							"name": "Message1",
+							"name": "Response",
 							"source": {
 								"$ref": "AAAAAAGBvzF64UJ6oEM="
 							},
@@ -2240,7 +2240,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGBvyC+UEEXX4o="
 							},
-							"name": "Payment Portal",
+							"name": "Bank",
 							"represent": {
 								"$ref": "AAAAAAGBvzF64UJ5PY8="
 							},
@@ -2256,7 +2256,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGBvyC+T0EWF4o="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -2264,7 +2265,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGBvyC+T0EWF4o="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -2272,7 +2274,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGBvyC+T0EWF4o="
 					},
-					"name": "Role3"
+					"name": "Role3",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
