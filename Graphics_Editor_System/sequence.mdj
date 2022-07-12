@@ -86,8 +86,8 @@
 									"font": "Arial;13;0",
 									"left": 8,
 									"top": 8,
-									"width": 692,
-									"height": 592,
+									"width": 569,
+									"height": 505,
 									"nameLabel": {
 										"$ref": "AAAAAAGBwoLGSagG8yI="
 									},
@@ -2133,7 +2133,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGBwoLGRqgCogY="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
